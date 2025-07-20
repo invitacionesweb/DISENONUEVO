@@ -569,6 +569,7 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
 }
 .timeline p {
     font-size: 1em;
+    font-family: var(--font-principal);
 
 }
 .rsvp {
