@@ -486,11 +486,13 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
   
 }
 .accordion H3 {
-    color: var(--color-secundario);
+    color: var(--color-terciario);
     font-size: 1.8EM;
     font-family: var(--font-principal);
     letter-spacing: 0.1rem;
     font-weight: lighter;
+    line-height: 1; /* espacio normal */
+
     text-align: center;
 }
 .accordion-item {
