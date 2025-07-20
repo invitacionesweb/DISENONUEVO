@@ -384,7 +384,7 @@ padding: 0;
 .timeline .heart1 {
 position: absolute; /* Se posiciona respecto al más cercano "relative" */
   top: -45px;
-  right: 30px;
+  right: 20px;
   z-index: 10; /* Asegura que esté encima */
   padding: 10px;
 }
@@ -394,8 +394,8 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
 
 .timeline .heart2{
   position: absolute; /* Se posiciona respecto al más cercano "relative" */
-  bottom:-130px;
-  left: 16px;
+  bottom:-150px;
+  left: 8px;
   z-index: 10; /* Asegura que esté encima */
   padding: 10px;
 }
@@ -611,7 +611,7 @@ label .grupo-opciones {
 .accordion .heart1 {
 position: absolute; /* Se posiciona respecto al más cercano "relative" */
   top: -45px;
-  right: 30px;
+  right: 20px;
   z-index: 10; /* Asegura que esté encima */
   padding: 10px;
 }
@@ -621,8 +621,8 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
 
 .heart2{
   position: absolute; /* Se posiciona respecto al más cercano "relative" */
-  bottom: -50px;
-  left: 16px;
+  bottom: -54px;
+  left: 8px;
   z-index: 10; /* Asegura que esté encima */
   padding: 10px;
 }
