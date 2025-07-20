@@ -436,7 +436,7 @@ label .grupo-opciones {
 }
 .formulario {
     max-width: 500px;
-  width: 60vw;
+  width: 90vw;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
