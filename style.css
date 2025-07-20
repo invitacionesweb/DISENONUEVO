@@ -217,7 +217,7 @@ audio::-webkit-media-controls-current-time-display {
 .timeline h2 {
     text-align: center;
     font-weight: 100;
-    font-size: 2.8em;
+    font-size: 1.6em;
 }
 .timeline img {
     width: 220px;
@@ -529,6 +529,45 @@ label .grupo-opciones {
   resize: vertical;
   min-height: 80px;
 }
+.dropdown-toggle {
+  background-color: var(--color-principal);
+  color: white;
+  font-family: 'TuFuenteSecundaria', cursive;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.grupo-opciones {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'TuFuenteSecundaria', cursive;
+  color: var(--color-principal);
+  font-size: 18px;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: var(--color-principal);
+  margin: 0;
+  padding: 0;
+}
+
+.oculto {
+  display: none;
+}
+
 
 .heart1 {
 position: absolute; /* Se posiciona respecto al más cercano "relative" */
@@ -599,7 +638,9 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
     .timing img{
         max-width: 360PX;
     }
-   
+   .timing h3 {
+    font-size: 1.2em;
+   }
    .fotos {
         max-width:100%;
         display: flex;
