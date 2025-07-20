@@ -206,7 +206,7 @@ audio::-webkit-media-controls-current-time-display {
 
 /*TIMELINE*/
 .timeline {
-    margin: 10px 0 60px 0;
+    margin: 0px 0 60px 0;
     width: 100vw;
     height: auto;
     display: flex;
@@ -217,9 +217,12 @@ audio::-webkit-media-controls-current-time-display {
 .timeline h2 {
     text-align: center;
     font-weight: 100;
-    font-size: 1.6em;
+    font-size: 2.6em;
+    margin-bottom: none;
 }
 .timeline img {
+margin: 0;
+padding: 0;
     width: 220px;
     padding: auto;
     margin: auto;
@@ -229,7 +232,7 @@ audio::-webkit-media-controls-current-time-display {
     height: auto;
     display: flex;
     text-align: center;
-    gap: 10px;
+    gap: 6px;
 }
 .iconos-block {
     width: 100%;
@@ -245,9 +248,9 @@ audio::-webkit-media-controls-current-time-display {
 }
 .iconos-block p {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 2.7em;
     margin: 0;
-    color: var(--color-secundario);
+    color: var(--color-terciario);
 }
 
 
@@ -288,7 +291,7 @@ audio::-webkit-media-controls-current-time-display {
 .bloque2 {
 
     padding: 0;
-    width: 100%;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,14 +300,19 @@ audio::-webkit-media-controls-current-time-display {
 .bloque2 p{
     width: 100%;
     font-size: 1rem;
-    padding: 0 40px;
+    padding: 0 0px;
     margin: 10px 0 ;
 }
 .information-bloque img {
     width: 40%;
 }
 .bloque2 h3{
- font-size: 1.4em;
+    padding: 6px 0;
+    margin: 0;
+ font-size: 1.8em;
+ color: var(--color-terciario);
+ font-weight: 100;
+ line-height:25px;
 }
 
 .quote {
@@ -535,7 +543,7 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
 
 .heart2{
   position: absolute; /* Se posiciona respecto al más cercano "relative" */
-  top: 1680px;
+  top: 1700px;
   left: 30px;
   z-index: 100; /* Asegura que esté encima */
   padding: 10px;
@@ -574,7 +582,7 @@ position: absolute; /* Se posiciona respecto al más cercano "relative" */
     
 }
 .timeline p {
-    font-size: 1em;
+    font-size: 1.7em;
     font-family: var(--font-principal);
 
 }
