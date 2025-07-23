@@ -135,29 +135,28 @@
   <div class="forms">
     <h2  data-aos="fade-up">... solo faltas vos</h2>
     
-    <form action="https://script.google.com/macros/s/AKfycbxapb00LKVlK1B1Q6jXVDquYsccwvVzvk2AGWuG1_nQQusL8_HVfwoz-ldmG6DvnIjr6w/exec" class="formulario">
-      <label class="formtitle">¿Venis?</label>
-      <div class="radio-group">
-        <label class="radio-option">
-        <input type="radio" name="asistencia" value="si" />
-          <span>Sí</span>
-        </label>
-        <label class="radio-option">
-          <input type="radio" name="asistencia" value="no" />
-          <span>No</span>
-        </label>
-      </div>
+   <form method="POST" action="https://script.google.com/macros/s/AKfycbxapb00LKVlK1B1Q6jXVDquYsccwvVzvk2AGWuG1_nQQusL8_HVfwoz-ldmG6DvnIjr6w/exec" class="formulario">
+  
+  <label class="formtitle">¿Venís?</label>
+  <div class="radio-group">
+    <label class="radio-option">
+      <input type="radio" name="asistencia" value="sí" required />
+      <span>Sí</span>
+    </label>
+    <label class="radio-option">
+      <input type="radio" name="asistencia" value="no" />
+      <span>No</span>
+    </label>
+  </div>
 
-      <input type="text" placeholder="Nombre" required>
-      <input type="text" placeholder="Apellido" required>
-      <input type="text" placeholder="Vegano / vegetariano / celiaco / nada" required>
+  <input type="text" name="nombre" placeholder="Nombre" required />
+  <input type="text" name="apellido" placeholder="Apellido" required />
+  <input type="text" name="dieta" placeholder="Vegano / vegetariano / celíaco / nada" required />
+  <textarea name="cancion" placeholder="Recomendale una canción al DJ 🎶"></textarea>
 
-    
+  <button type="submit" class="boton">ENVIAR</button>
+</form>
 
-      <textarea placeholder="Recomendale una canción al DJ 🎶"></textarea>
-
-      <button type="submit" class="boton">ENVIAR</button>
-    </form>
     <p data-aos="fade-up">Recordá completar un formulario por persona. <br> Hacelo antes del 20 de Noviembre.</p>
   </div>
  
